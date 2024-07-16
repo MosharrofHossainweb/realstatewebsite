@@ -1,0 +1,507 @@
+/*===================================================font=================================== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* =========================================font======================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,p{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --common-font:"Josefin Sans", sans-serif;
+}
+/*==========common css========== */
+/*==========manu bar css========== */
+.main_manu{
+    width: 100%;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.main_manu ul{
+    align-items: center;
+    gap:16px;
+}
+.main_manu ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff !important;
+}
+.main_manu ul li ul li a{
+    color: #000 !important;
+}
+.manu_button{
+    display: flex;
+    gap: 16px;
+    padding-left: 24px;
+}
+.manu_button a{
+    padding: 16px 40px;
+    background:#5E4DCD ;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    transition: all linear .7s;
+}
+.manu_button a:hover{
+    background: #FFD2DD;
+    color: #5E4DCD;
+}
+/*==========manu css========== */
+/*==========banner css========== */
+#banner{
+    padding-top: 321px;
+    padding-bottom: 175px;
+    background: url(../image/Hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_text h1{
+    width: 770px;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+}
+.banner_text p{
+    width: 470px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    margin: 40px 0;
+}
+.banner_text a{
+    padding: 24px 80px 23px;
+    background: #5E4DCD;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    transition: all linear .7s;
+}
+
+.banner_text a:hover{
+    background: #fff;
+    color: #5E4DCD;
+}
+/*==========banner css========== */
+/*==========offer css========== */
+#offer{
+    padding-top: 160px;
+}
+.card_all_text{
+padding: 24px;
+}
+.offer_card{
+    row-gap: 40px;
+}
+.single_offer_card{
+    position: relative;
+    width: 370px;
+    height: 480px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+}
+.offer_head h2{
+    width: 770px;
+    margin: 0 auto;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.offer_head p{
+    width: 770px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    color: #999999;
+}
+.single_offer_card .card_img{
+    width: 370px;
+    height: 240px;
+    padding: 24px;
+    background: url(../image/Img1.png);
+}
+.single_offer_card .card_img2{
+    width: 370px;
+    height: 430px;
+    padding: 24px;
+    background: url(../image/card2.png);
+}
+.single_offer_card .View{
+    margin-top: 36px;
+    width: 370px;
+    height: 72px;
+    background: #FFD2DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single_offer_card .card_img3{
+    width: 370px;
+    height: 240px;
+    padding: 24px;
+    background: url(../image/card3.png);
+}
+.single_offer_card .card_img4{
+    width: 370px;
+    height: 240px;
+    padding: 24px;
+    background: url(../image/card4.png);
+}
+.single_offer_card .card_img5{
+    width: 370px;
+    height: 240px;
+    padding: 24px;
+    background: url(../image/card5.png);
+}
+.single_offer_card .card_img6{
+    width: 370px;
+    height: 240px;
+    padding: 24px;
+    background: url(../image/card6.png);
+}
+.card_img a{
+    padding: 8px 12px 6px;
+    background: hsl(0, 0%, 80%);
+    font-size: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    color: #333333;
+}
+.card_img3 a{
+    padding: 8px 12px 6px;
+    background: hsl(0, 0%, 80%);
+    font-size: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    color: #333333;
+}
+.card_img4 a{
+    padding: 8px 12px 6px;
+    background: hsl(0, 0%, 80%);
+    font-size: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    color: #333333;
+}
+.card_img5 a{
+    padding: 8px 12px 6px;
+    background: hsl(0, 0%, 80%);
+    font-size: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    color: #333333;
+}
+.card_img6 a{
+    padding: 8px 12px 6px;
+    background: hsl(0, 0%, 80%);
+    font-size: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    color: #333333;
+}
+
+.card_text h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    color: #333333;
+}
+.card_text h3{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    color: #999999;
+}
+.card_text p{
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    color: #333333;
+    margin: 24px 0;
+}
+.price_range{
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+.price_range .line{
+    width: 322px;
+    height: 8px;
+    background: #ECECEC;
+    padding-bottom: 24px;
+}
+.price_range .inner_line{
+    width: 182px;
+    height: 23px;
+    background: #5E4DCD;
+}
+.price_range p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+    padding-bottom: 9px;
+}
+.price_range p span{
+    font-size: 16px;
+    font-weight:700;
+    color:#5E4DCD;
+}
+/* ================hover effect========== */
+.single_card_line{
+    margin: 24px 0;
+    background: #336EE1;
+    height: 2px;
+    width: 100%;
+}
+.product_data .product_text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    font-family: "Josefin Sans", sans-serif;
+}
+.product_data .product_main_data h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    font-family: "Josefin Sans", sans-serif;
+}
+.product_data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.card_button a{
+    width: 100%;
+    height: 72px;
+    background:#FFD2DD ;
+    font-size: 16px;
+    font-weight: 700;
+    color: #5E4DCD;
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_content{
+    position: absolute;
+    top:242px;
+    left: 0;
+    transition: all linear .5s;
+    background: #fff;
+}
+.main_content:hover{
+    top: 0; 
+}
+/* ================hover effect========== */
+.veiw_all a{
+    height: 70px;
+    width: 270px;
+    border: 1px solid #5E4DCD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 160px;
+    transition: all linear .7s;
+}
+.veiw_all a:hover{
+    background:#5E4DCD;
+    color: #fff;
+}
+
+.veiw_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*==========offer css========== */
+/*==========graphical  css========== */
+#graph_section{
+    width: 100%;
+    height: 800px;
+    background: url(../image/grapghback.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.content{
+    width: 570px;
+    height: 376px;
+    background: url(../image/Content\(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.graph{
+    width: 575px;
+    height: 335px;
+    background: url(../image/Chart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.graph_row{
+    width: 1170px;
+    display: flex;
+    gap: 30px;
+    padding-top: 160px;
+}
+/*==========graphical  css========== */
+/*==========tree  css========== */
+#tree_section{
+    padding-top:179px ;
+    padding-bottom:179px ;
+}
+.tree_row{
+    width: 190%;
+    display: flex;
+    gap: 130px;
+}
+.looking{
+    width: 570px;
+    height: 422px;
+    background: url(../image/looking.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tree_img{
+    width: 470px;
+    height: 460px;
+    background: url(../image/tree.png);
+}
+/*==========tree  css========== */
+/*==========footer  css========== */
+#footer{
+    position: relative;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background: #ECECEC;
+
+}
+.footer_text_col{
+    display: flex;
+}
+.footer_logo_img h2{
+    font-size: 24px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+}
+.footoer_log p{
+    margin-top: 54px;
+    margin-bottom: 194px;
+    width: 370px;
+    font-size: 15px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+}
+.subcribe h2{
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+}
+.footer_ser{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_service h3{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+}
+.footer_service h4{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+}
+.footer_service h5{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+}
+.footer_service h6{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+}
+.footer_about h2{
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif;
+}
+.footer_about h3{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif; 
+}
+.footer_about h4{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif; 
+}
+.footer_about h5{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif; 
+}
+.footer_about h6{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Josefin Sans", sans-serif; 
+}
+.socilal{
+    position: absolute;
+    left: 75%;
+    transform: translateX(-70%);
+}
+/*==========footer  css========== */
+
